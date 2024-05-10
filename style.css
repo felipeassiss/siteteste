@@ -1,0 +1,136 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/background.jpg);
+}
+
+.topo {
+    background-image: url(img/header.png);
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.logo,
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.logo {
+    width: 255px;
+    height: 140px;
+    margin-left: 12%;
+    margin-top: -45px;
+    position: relative;
+}
+
+.menu {
+    margin-top: -50px;
+    margin-left: 15px;
+    margin-right: -10px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.menu2 {
+    margin-top: -50px;
+    margin-left: 15px;
+    margin-right: -10px;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.menuconta {
+    margin-left: 250px;
+    margin-top: -50px;
+    margin-right: -240px;
+    text-decoration: none;
+    color: rgb(156, 131, 245);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.trailer {
+    margin-top: 35px;
+    margin-left: 170px;
+    display: inline-block;
+}
+
+.fotolado {
+    margin-left: 60px;
+    margin-bottom: 150px;
+    display: inline-block;
+}
+
+.botao {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    background: rgb(202, 131, 0);
+    padding: 8px 40px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 75%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.info {
+    color: rgb(221, 221, 221);
+    text-align: left;
+    padding-left: 169px;
+    padding-right: 550px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.playmine {
+    position: absolute;
+    color: rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    left: 75%;
+    top: calc(50% + 70px);
+    transform: translateX(-50%);
+}
+
+.playmine2 {
+    position: absolute;
+    color: rgb(156, 131, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    left: 70%;
+    top: 66%
+}
+
+.playmine3 {
+    position: absolute;
+    color: rgb(156, 131, 245);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    left: 76%;
+    top: 66%
+}
+
+.divisao {
+    position: absolute;
+    color: rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    left: 75%;
+    top: 64%
+}
